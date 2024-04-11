@@ -1,0 +1,66 @@
+*{
+  background-color: rgb(197, 249, 249);
+  background-image: url(bike.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: "Oswald", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #f5f2f2;
+  text-align: center;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  filter: blur(1px);
+  border-radius: 25px;
+}
+.item:hover {
+  flex: 8;
+  filter: blur(0px);
+}
+
+.item-1 {
+  background-image: url("hima1.jpg")
+}
+
+.item-2 {
+    background-image: url("hima12.jpg")
+
+}
+
+.item-3 {
+    background-image: url("hima7.jpg")
+}
+
+.item-4 {
+    background-image: url("hima13.jpeg")
+}
+
+.item-5 {
+  background-image: url("hima5.jpg")}
+
+}
