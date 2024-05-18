@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>grocery sales website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favi.png">    
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"><img src="./img/logo.png"style="width:70px"></a>
+            <form action="" class="search-box-container">
+              <input type="search" id="search-box" placeholder="search here">
+              <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div class="header-2">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-icon">&#9776;</label>
+            <nav id="menu">
+                <a href="#">Home</a>
+                <a href="category.html">Category</a>
+                <a href="products.html">Products</a>
+				<a href="deal.html">Deal</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="icon">
+                <a href="cart.html"class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="userlogin.html" class="fas fa-user-circle"></a>
+            </div>
+        </div>       
+    </header>
+    <section class="home" id="home">
+		  <div class='ca-seo-structure'>
+  <input checked id='ca-seo-slide-1' name='ca-seo-slides' type='radio'>
+  <div class='ca-seo-slide'>
+            <h3>Fresh And Organic grocerys for you !!!<br>
+              your daily need product</h3>
+            <a href="#" class="btn">buy now</a>
+  <div class="ca-seo-slide-img"><img src="./img/home-img.png"></div>
+  </div>
+  <nav class='ca-seo-slide-nav'>
+	<label class='slide-prev' for='ca-seo-slide-1'></label>
+    <label class='slide-next' for='ca-seo-slide-2'></label>
+  </nav>
+  <nav class='ca-seo-slide-dots'>
+    <label class='slide-dot' for='ca-seo-slide-1'></label>
+    <label class='slide-dot' for='ca-seo-slide-2'></label>
+    <label class='slide-dot' for='ca-seo-slide-3'></label>
+  </nav>
+  <input id='ca-seo-slide-2' name='ca-seo-slides' type='radio'>
+  <div class='ca-seo-slide'><br>
+<h3>Fresh flavour await,just a cart away.come explore today !!!</h3>
+<a href="#" class="btn"><Em> Bliss with us</Em></a>
+  <div class="ca-seo-slide-img"><img src="./img/home-img2.png"></div>
+  </div>
+  <nav class='ca-seo-slide-nav'>
+	<label class='slide-prev' for='ca-seo-slide-1'></label>
+    <label class='slide-next' for='ca-seo-slide-3'></label>
+  </nav>
+  <nav class='ca-seo-slide-dots'>
+    <label class='slide-dot' for='ca-seo-slide-1'></label>
+    <label class='slide-dot' for='ca-seo-slide-2'></label>
+    <label class='slide-dot' for='ca-seo-slide-3'></label>    
+  </nav>
+  <input id='ca-seo-slide-3' name='ca-seo-slides' type='radio'>
+  <div class='ca-seo-slide'>
+<h3>Stock up on freshness, taste the difference today. shop with us !!"</h3>
+<a href="#" class="btn">Shop here</a>
+  <div class="ca-seo-slide-img"><img src="./img/home-img3.png"></div>
+  </div>
+  <nav class='ca-seo-slide-nav'>
+	<label class='slide-prev' for='ca-seo-slide-2'></label>
+    <label class='slide-next' for='ca-seo-slide-3'></label>
+  </nav>
+  <nav class='ca-seo-slide-dots'>
+    <label class='slide-dot' for='ca-seo-slide-1'></label>
+    <label class='slide-dot' for='ca-seo-slide-2'></label>
+    <label class='slide-dot' for='ca-seo-slide-3'></label>
+  </nav>
+    </section>
+    <section class="banner-container">
+    <div class="banner">
+        <img src="./img/banner-1.jpg" alt="">
+        <div class="content">
+            <h3>vegetables</h3>
+            <h3>special offer</h3>
+            <p>upto 45% off</p>
+            <a href="cart.html" class="btn">check out</a>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="./img/banner-2.jpg" alt="">
+        <div class="content">\
+            <h3>Fruits</h3>
+            <h3>limited offer</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn">check out</a>
+        </div>
+    </div>
+</section>
+<section class="category" id="category">
+    <h1 class="heading">shop by <span>category</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <h3>vegetables</h3>
+            <p>upto 50% off</p>
+            <img src="./img/category-1.png" alt="">
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>juice</h3>
+            <p>upto 44% off</p>
+            <img src="./img/category-2.png" alt="">
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>meat</h3>
+            <p>upto 35% off</p>
+            <img src="./img/category-3.png" alt="">
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>Fruits</h3>
+            <p>upto 12% off</p>
+            <img src="./img/category-4.png" alt="">
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+<section class="product" id="product">
+    <h1 class="heading">latest <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">-33%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-1.png" alt="">
+            <h3>organic banana</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $11.00 <span> $13.20 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-45%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-2.png" alt="">
+            <h3>organic tomato</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $10.00 <span> $12.20 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-52%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-3.png" alt="">
+            <h3>organic orange</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $14.50 <span> $15.00 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="cart.html" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-13%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-4.png" alt="">
+            <h3>natural milk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $09.00 <span> $10.20 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-5.png" alt="">
+            <h3>organic grapes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $11.50 <span> $13.20 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-29%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-6.png" alt="">
+            <h3>natural almonds</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $10.90 <span> $13.00 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-55%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-7.png" alt="">
+            <h3>organic apple</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $15.50 <span> $10.20 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-30%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-8.png" alt="">
+            <h3>natural butter</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $15.50 <span> $18.90 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-40%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="./img/product-9.png" alt="">
+            <h3>organic carrot</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> $10.50 <span> $13.20 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+<section class="deal" id="deal">
+    <div class="content">
+        <h3 class="title">deal of the day</h3>
+        <p>"Welcome to a world of daily delight,
+        Where deals sparkle from morning to night.
+        Find treasures galore, just a click away,
+        Every day brings savings, come what may!"</p>
+        <div class="countDown">
+            <div class="box">
+                <h3 id="day">16</h3>
+                <span>day</span>
+            </div>
+            <div class="box">
+                <h3 id="hour">07</h3>
+                <span>hour</span>
+            </div>
+            <div class="box">
+                <h3 id="minute">20</h3>
+                <span>minute</span>
+            </div>
+            <div class="box">
+                <h3 id="second">02</h3>
+                <span>second</span>
+            </div>
+        </div>
+        <a href="#" class="btn">check the deal</a>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us </h1>
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="Telephone number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+</section>
+<!---Clients--->
+  <section id="clients">
+    <!--heading-->
+	 <h1 class="heading"> <span>Client's</span> feedback</h1>
+    <!--box-container-->
+    <div class="Client-container">
+      <!--box--->
+      <div class="client-box">
+        <!--profile-->
+        <div class="client-profile">
+          <!--img-->
+          <img src="img/client1.jpg" alt="client1">
+          <!--text-->
+          <div class="profile-text">
+            <strong>SHANMUGA PRIYAA</strong>
+          </div>
+        </div>
+        <!---Rating-->
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--comments-->
+        <p>Excellent website for online grocery ordering service. I'm delighted to see organic foods. Quick Shipping. Items of good quality. Customer service is excellent. Thanks to the eFresh team, I was able to save a considerable amount of time.
+          In general, the service was excellent.</p>
+      </div>
+      <!--box--->
+      <div class="client-box">
+        <!--profile-->
+        <div class="client-profile">
+          <!--img-->
+          <img src="img/client2.jpg" alt="client2">
+          <!--text-->
+          <div class="profile-text">
+            <strong>SHREENITHI</strong>
+          </div>
+        </div>
+        <!---Rating-->
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--comments-->
+        <p>This is an excellent and fantastic website for online groceries ordering. I'm very happy to see organic and fresh foods. eFresh provides variety of fresh foods. One thing I like about eFresh is that its service is excellent. Thanks to eFresh team.</p>
+      </div>
+      <!--box--->
+      <div class="client-box">
+        <!--profile-->
+        <div class="client-profile">
+          <!--img-->
+          <img src="img/client3.jpg" alt="client3">
+          <!--text-->
+          <div class="profile-text">
+            <strong>DHARANIKA</strong>
+          </div>
+        </div>
+        <!---Rating-->
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--comments-->
+        <p>This is an interesting website for online groceries shopping. I'm delighted to see organic foods. eFresh offers a wide variety of fresh foods. One thing I appreciate about eFresh is that its excellent customer service. Thank you, eFresh team.</p>
+      </div>
+  </section>
+  <!--client-section-end-->
+<section class="newsletter">
+    <h3>subscribe us for latest updates</h3>
+    <form action="">
+        <input class="box" type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="logo1"><img src="./img/logo.png" style="width:70px"></a>
+            <p>At Rini's Mart, we're more than just a grocery store,
+            We're your partners in fresh, flavorful discoveries galore.
+            From farm-fresh produce to gourmet delights,
+            Join us on a culinary journey that ignites!"</p>
+            <div class="share">
+                <a href="https://www.facebook.com/" class="btn fab fa-facebook-f"></a>
+                <a href="https://www.facebook.com/" class="btn fab fa-twitter"></a>
+                <a href=""></a>
+                <a href="" class="btn fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>our location</h3>
+            <div class="links">
+                <a href="https://www.google.com/maps/place/Madurai,+Tamil+Nadu/@9.9178369,78.1228237,13z/data=!3m1!4b1!4m6!3m5!1s0x3b00c582b1189633:0xdc955b7264f63933!8m2!3d9.9252007!4">Madurai</a>
+                <a href="https://www.google.com/maps/place/Dindigul+Rock+Fort/@10.3651118,77.9724038,14.32z/data=!4m15!1m8!3m7!1s0x3b00aa57a54881e3:0x765a14068982e6e7!2sDindigul,+Tamil+Nadu+624001!3b1!8m2!3d10.3623794!4d77.9694579!16zL20vMDZkc2Nj!3m5!1s0x3b00aaefd80aee8b:0x36e7090838343e37!8m2!3d10.3601884!4d77.9624362!16zL20vMGRjamhq?entry=ttu">Dindigul</a>
+                <a href="https://www.google.com/maps/place/Theni,+Tamil+Nadu/@10.0159719,77.4633715,14z/data=!3m1!4b1!4m6!3m5!1s0x3b071353e94a7877:0x962bf8fd53981722!8m2!3d10.0079322!4d77.4735441!16zL20vMDR0dnF3?entry=ttu">Theni</a>
+                <a href="https://www.google.com/maps/place/Sivakasi,+Tamil+Nadu/data=!4m2!3m1!1s0x3b06cee43d812d0d:0x8ce12e9dcdaa2a2c?sa=X&ved=1t:242&ictx=111">Sivakasi</a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <div class="links">
+                <a href="#home">home</a>
+                <a href="#category">category</a>
+                <a href="#product">product</a>
+                <a href="#deal">deal</a>
+                <a href="#contact">contact</a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">window xp</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span> Harini Senthilkumar </span> | all rights reserved! </h1>
+</section>
+</body>
+</html>
